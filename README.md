@@ -37,7 +37,7 @@ A simple bio site built using Node.js. This site can be easily customized by edi
     }
     ```
 
-4. Customize the HTML files in the `public` folder to configure the site to your liking.
+4. Customize the HTML files in the `src` folder to configure the site to your liking.
 
 ## Usage
 
