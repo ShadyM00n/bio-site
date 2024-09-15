@@ -59,21 +59,21 @@
             },
             {
                 "index": 1,
-                "link-url": "https://example.com",
+                "link": "https://example.com",
                 "title": "Example title",
                 "description": "Example Description",
                 "theme": "blue"
             },
             {
                 "index": 2,
-                "link-url": "https://example.com",
+                "link": "https://example.com",
                 "title": "Example title",
                 "description": "Example Description",
                 "theme": "red"
             },
             {
                 "index": 3,
-                "link-url": "https://example.com",
+                "link": "https://example.com",
                 "title": "Example title",
                 "description": "Example Description",
                 "theme": "blue"
