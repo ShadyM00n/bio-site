@@ -1,5 +1,79 @@
 {
     "port": 443,
     "port2": 3000,
-    "domain": "https://example.com"
-}
+    "ssl": true,
+    "domain": "https://example.com",
+    "theme": "blue",
+    "account": {
+        "name": { "part1": "Name", "part2": "Person",
+            "whole": "NamePerson"
+        },
+        "pfp": "http://legendsnetwork.xyz/assets/8fbd3be4-8724-4428-a7df-6a6204d64de9.ico",
+        "connections": {
+            "discord": "https://discord.com/",
+            "github": "https://github.com/",
+            "instagram": "https://www.instagram.com//",
+            "x": "https://x.com/",
+            "tiktok": "https://www.tiktok.com/"
+        },
+        "bio": {
+            "big": { "part1": "Example part1", "part2": "part2", "part3": "part3." },
+            "small": "Example small bio"
+        }
+    },
+        "bio": [
+            {
+                "description": {
+                    "part1": "About",
+                    "part2": "Me"
+                }
+            },
+            {
+                "title": "Example Title",
+                "description": "Example Description",
+                "picture": "https://media.istockphoto.com/id/1316134499/photo/a-concept-image-of-a-magnifying-glass-on-blue-background-with-a-word-example-zoom-inside-the.jpg?s=612x612&w=0&k=20&c=sZM5HlZvHFYnzjrhaStRpex43URlxg6wwJXff3BE9VA="
+            },
+            {
+                "title": "Example Title 2",
+                "description": "Example Description",
+                "picture": "https://media.istockphoto.com/id/1316134499/photo/a-concept-image-of-a-magnifying-glass-on-blue-background-with-a-word-example-zoom-inside-the.jpg?s=612x612&w=0&k=20&c=sZM5HlZvHFYnzjrhaStRpex43URlxg6wwJXff3BE9VA="
+            },
+            {
+                "title": "Example Title 3",
+                "description": "Example Description",
+                "picture": "https://media.istockphoto.com/id/1316134499/photo/a-concept-image-of-a-magnifying-glass-on-blue-background-with-a-word-example-zoom-inside-the.jpg?s=612x612&w=0&k=20&c=sZM5HlZvHFYnzjrhaStRpex43URlxg6wwJXff3BE9VA="
+            }
+        ],
+        "projects": [
+            {
+                "index": 0,
+                "description": {
+                    "part1": "Example part1",
+                    "part2": "Example part2",
+                    "part3": "Example part3"
+                },
+                "qoute": "Example qoute"
+            },
+            {
+                "index": 1,
+                "link-url": "https://example.com",
+                "title": "Example title",
+                "description": "Example Description",
+                "theme": "blue"
+            },
+            {
+                "index": 2,
+                "link-url": "https://example.com",
+                "title": "Example title",
+                "description": "Example Description",
+                "theme": "red"
+            },
+            {
+                "index": 3,
+                "link-url": "https://example.com",
+                "title": "Example title",
+                "description": "Example Description",
+                "theme": "blue"
+            }
+        ]
+    }
