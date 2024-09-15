@@ -17,7 +17,7 @@ A simple bio site built using Node.js. This site can be easily customized by edi
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/bio-site.git
+    git clone https://github.com/ShadyM00n/bio-site.git
     cd bio-site
     ```
 
