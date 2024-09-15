@@ -6,7 +6,6 @@ A simple bio site built using Node.js. This site can be easily customized by edi
 
 - Customizable port and domain configurations.
 - Easy setup and deployment.
-- Editable HTML files for personalizing your bio site.
 
 ## Prerequisites
 
@@ -27,17 +26,33 @@ A simple bio site built using Node.js. This site can be easily customized by edi
     npm install
     ```
 
-3. Configure the `config.json` file. Update the port, secondary port, and domain as needed:
+3. Configure the `config.json` file. Update the port, secondary port, domain, etc as needed:
 
     ```json
     {
-        "port": 443,
-        "port2": 3000,
-        "domain": "https://example.com"
-    }
+    "port": 443,
+    "port2": 3000,
+    "ssl": true,
+    "domain": "https://example.com",
+    "theme": "blue",
+    "account": {
+        "name": { "part1": "Name", "part2": "Person",
+            "whole": "NamePerson"
+        },
+        "pfp": "http://legendsnetwork.xyz/assets/8fbd3be4-8724-4428-a7df-6a6204d64de9.ico",
+        "connections": {
+            "discord": "https://discord.com/",
+            "github": "https://github.com/",
+            "instagram": "https://www.instagram.com/",
+            "x": "https://x.com/",
+            "tiktok": "https://www.tiktok.com/"
+        },
+        "bio": {
+            "big": { "part1": "Big Bio Example 1", "part2": "Big Bio Example 2", "part3": "Big Bio Example 3." },
+            "small": "Small Bio Example"
+        }
+    },
     ```
-
-4. Customize the HTML files in the `src` folder to configure the site to your liking.
 
 ## Usage
 
