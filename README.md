@@ -1,6 +1,19 @@
 # Bio Site
 
-A simple bio site built using Node.js. This site can be easily customized by editing the `config.json` and modifying the HTML files directly.
+A simple bio site built using Node.js. This site can be easily customized by editing the `config.json` the site will update when you restart the application.
+
+## Options
+
+- Themes
+  - Red
+  - Orange
+  - Yellow
+  - Green
+  - Blue
+  - Purple
+  - Pink
+
+Project cards are not required but the 3 bio cards are.
 
 ## Features
 
