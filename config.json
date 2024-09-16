@@ -4,7 +4,7 @@
     /** SSL only works for port 443 **/
     "ssl": false,
     "domain": "https://example.com",
-    /** red or blue **/
+    /** red | orange | yellow | green | blue | purple | pink **/
     "theme": "blue",
     "account": {
         "name": { "part1": "Name", "part2": "Person",
