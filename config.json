@@ -1,7 +1,8 @@
 {
-    "port": 443,
-    "port2": 3000,
-    "ssl": true,
+    "port": 3000,
+    "port2": 2100,
+    /** SSL only works for port 443 **/
+    "ssl": false,
     "domain": "https://example.com",
     /** red or blue **/
     "theme": "blue",
