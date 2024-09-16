@@ -82,8 +82,7 @@ Project cards are not required but the 3 bio cards are.
 This project is licensed under the MIT License.
 --
 
-  [x] - Customizability
-  [x] - Lightweight and Fast
-  [x] - Personalization
-  [x] - frequent updates
-  [ ] - slow
+  - [x] - Customizability
+  - [x] - Lightweight and Fast
+  - [x] - Personalization
+  - [x] - frequent updates
