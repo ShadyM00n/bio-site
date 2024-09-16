@@ -29,7 +29,14 @@ if (config.port === 443 || config.port2 === 443) {
             logs.success(`Dev Site on https://localhost:${config.port2}/`);
         });
     }
-}
+} else {
+    server.listen(config.port, () => {
+        logs.success(`Bio Site on ${config.domain}`);
+    });
+    server.listen(config.port2, () => {
+        logs.success(`Dev Site on http://localhost:${config.port2}`);
+    });
+    }
 server.use('/assets', express.static(path.join(__dirname, 'src/assets')));
 server.set('view engine', 'ejs');
 server.set('views', path.join(__dirname, '/src'));
