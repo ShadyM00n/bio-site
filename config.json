@@ -6,6 +6,7 @@
     "domain": "https://example.com",
     /** red | orange | yellow | green | blue | purple | pink **/
     "theme": "blue",
+    "navBarBlur": true,
     "account": {
         "name": { "part1": "Name", "part2": "Person",
             "whole": "NamePerson"
