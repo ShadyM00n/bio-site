@@ -14,8 +14,7 @@
 </head>
 
 <body>
-    <header
-        class="w-full top-0 z-[100] fixed p-4 animate-fade-in-top bg-transparent border-b-2 border-b-transparent duration-300">
+    <header class="<% if (blur === true) { %>backdrop-blur-md w-full top-0 z-[100] fixed p-4 animate-fade-in-top bg-transparent border-b-2 border-b-transparent duration-300<% } else { %>w-full top-0 z-[100] fixed p-4 animate-fade-in-top bg-transparent border-b-2 border-b-transparent duration-300<% } %>">
         <nav class="flex items-center max-w-7xl w-full mx-auto justify-between">
             <a href="./">
                 <img src="<%= user.pfp %>" class="h-12 w-12 nav-img" id="Layer_1"
