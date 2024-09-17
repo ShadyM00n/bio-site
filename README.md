@@ -48,6 +48,7 @@ Project cards are not required but the 3 bio cards are.
     "ssl": true,
     "domain": "https://example.com",
     "theme": "blue",
+    "navBarBlur": true,
     "account": {
         "name": { "part1": "Name", "part2": "Person",
             "whole": "NamePerson"
