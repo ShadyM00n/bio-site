@@ -55,6 +55,7 @@ server.get('*', (req, res) => {
                     tiktok: config.account.connections.tiktok,
                     x: config.account.connections.x
                 },
+                blur: config.navBarBlur,
                 user: {
                     name: {
                         part1: config.account.name.part1,
@@ -81,6 +82,7 @@ server.get('*', (req, res) => {
                     tiktok: config.account.connections.tiktok,
                     x: config.account.connections.x
                 },
+                blur: config.navBarBlur,
                 user: {
                     name: {
                         part1: config.account.name.part1,
@@ -102,6 +104,7 @@ server.get('*', (req, res) => {
                     tiktok: config.account.connections.tiktok,
                     x: config.account.connections.x
                 },
+                blur: config.navBarBlur,
                 user: {
                     name: {
                         part1: config.account.name.part1,
@@ -123,6 +126,7 @@ server.get('*', (req, res) => {
                     tiktok: config.account.connections.tiktok,
                     x: config.account.connections.x
                 },
+                blur: config.navBarBlur,
                 user: {
                     name: {
                         part1: config.account.name.part1,
